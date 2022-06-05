@@ -3,12 +3,12 @@ use basededatos_ovni_vinos;
 
 create table administrador
 (
-	correoAdmin char(30) primary key not null,
-	nombreAdmin char(30),
-	apellidoAdmin char(30),
-	direccionAdmin char(40),
-	telefonoAdmin char(12),
-	passwordAdmin char(20)
+	correo_admin char(30) primary key not null,
+	nombre_admin char(30),
+	apellido_admin char(30),
+	direccion_admin char(40),
+	telefono_admin char(12),
+	password_admin char(20)
 );
 
 create table compra
@@ -17,7 +17,7 @@ create table compra
 	precioCompra double, 
 	cantidadCompra int, 
 	fechaCompra date,
-    correoAdmin char(30) not null
+    correo_admin char(30) not null
 );
 
 
@@ -180,12 +180,12 @@ ADD CONSTRAINT `fk_venta_correoCliente`
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
   ALTER TABLE `basededatos_ovni_vinos`.`compra` 
-ADD INDEX `fk_compra_correoAdmin_idx` (`correoAdmin` ASC);
+ADD INDEX `fk_compra_correo_admin_idx` (`correo_admin` ASC);
 ;
 ALTER TABLE `basededatos_ovni_vinos`.`compra` 
-ADD CONSTRAINT `fk_compra_correoAdmin`
-  FOREIGN KEY (`correoAdmin`)
-  REFERENCES `basededatos_ovni_vinos`.`administrador` (`correoAdmin`)
+ADD CONSTRAINT `fk_compra_correo_admin`
+  FOREIGN KEY (`correo_admin`)
+  REFERENCES `basededatos_ovni_vinos`.`administrador` (`correo_admin`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
   ALTER TABLE `basededatos_ovni_vinos`.`inventario_detalles` 
