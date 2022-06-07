@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  expandir = false
+  expandir = false;
   constructor() { }
 
   ngOnInit(): void {

@@ -1,22 +1,23 @@
-<div class="body" [ngClass]="{'body-expanded':expandir}">
+<div [ngClass]="!expandir ? 'contraer': 'expandido'">
 
-    <div id="sidemenu"class="menu-collapsed">
-        <div id="header">
-            <div id="title">Titulo</div>
-            <div id="menu-btn" (click)="expandir = !expandir" [ngClass]="{'menu-expanded':expandir}" [ngClass]="{'menu-collapsed':!expandir}">
-                <div class="btn-hamburger"></div>
-                <div class="btn-hamburger"></div>
-                <div class="btn-hamburger"></div>
-            </div>
-        </div>
+    <div class="containerLateral">
     
-        <div id="menu-items">
-            <div class="item">
-                <a href="">
-                    <div class="icon"><img src="../../../../assets/Images/usuario.png" alt=""></div>
-                    <div class="title">Perfil</div>
-                </a>
-            </div>
+        <a href="">
+            <img class="NavLogo" src="../../../../assets/Images/usuario.png" alt="">
+        </a>
+        <div class="Navitems">
+            <a href="">
+                <img src="../../../../assets/Images/usuario.png" alt="">
+            </a>
+            <a href=""><h2>Item 1</h2></a>
+            <a href=""><h2>Item 2</h2></a>
+            <a href=""><h2>Item 3</h2></a>
+            <a href=""><h2>Item 4</h2></a>
         </div>
+        <p>Un manjar para compartir la experiencia</p>
     </div>
+</div>
+
+<div class="cambio" (click)="expandir = !expandir" [ngClass]="!expandir ? 'contraIcon': 'expIcon'">
+    <img class="menuIcon" src="../../../../assets/Images/menu.png" alt="">
 </div>
