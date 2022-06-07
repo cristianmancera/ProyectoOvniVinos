@@ -9,67 +9,77 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="administrador")
-public class AdministradorVo implements Serializable{
+@Table(name = "administrador")
+public class AdministradorVo implements Serializable {
 
 	@Id
-	
-	//Al no ser autogenerado no se le coloca la anotacion 
-	//@GeneratedValue(strategy=GenerationType=?)
-	private String correoAdmin;
-	
-	@Column(name="nombreAdmin")
-	private String nombreAdmin;
-	
-	@Column(name="apellidoAdmin")
-	private String apellidoAdmin; 
-	
-	@Column(name="direccionAdmin")
-	private String direccionAdmin; 
-	
-	@Column(name="telefonoAdmin")
-	private String telefonoAdmin; 
-	
-	@Column(name="passwordAdmin")
-	private String passwordAdmin;
-	
-	
+
+	// Al no ser autogenerado no se le coloca la anotacion
+	// @GeneratedValue(strategy=GenerationType=?)
+	private String correo_admin;
+
+	@Column(name = "nombre_admin")
+	private String nombre_admin;
+
+	@Column(name = "apellido_admin")
+	private String apellido_admin;
+
+	@Column(name = "direccion_admin")
+	private String direccion_admin;
+
+	@Column(name = "telefono_admin")
+	private String telefono_admin;
+
+	@Column(name = "password_admin")
+	private String password_admin;
+
 	public String getCorreoAdmin() {
-		return correoAdmin;
+		return correo_admin;
 	}
-	public void setCorreoAdmin(String correoAdmin) {
-		this.correoAdmin = correoAdmin;
+
+	public void setCorreoAdmin(String correo_admin) {
+		this.correo_admin = correo_admin;
 	}
+
 	public String getNombreAdmin() {
-		return nombreAdmin;
+		return nombre_admin;
 	}
-	public void setNombreAdmin(String nombreAdmin) {
-		this.nombreAdmin = nombreAdmin;
+
+	public void setNombreAdmin(String nombre_admin) {
+		this.nombre_admin = nombre_admin;
 	}
+
 	public String getApellidoAdmin() {
-		return apellidoAdmin;
+		return apellido_admin;
 	}
-	public void setApellidoAdmin(String apellidoAdmin) {
-		this.apellidoAdmin = apellidoAdmin;
+
+	public void setApellidoAdmin(String apellido_admin) {
+		this.apellido_admin = apellido_admin;
 	}
+
 	public String getDireccionAdmin() {
-		return direccionAdmin;
+		return direccion_admin;
 	}
-	public void setDireccionAdmin(String direccionAdmin) {
-		this.direccionAdmin = direccionAdmin;
+
+	public void setDireccionAdmin(String direccion_admin) {
+		this.direccion_admin = direccion_admin;
 	}
+
 	public String getTelefonoAdmin() {
-		return telefonoAdmin;
+		return telefono_admin;
 	}
-	public void setTelefonoAdmin(String telefonoAdmin) {
-		this.telefonoAdmin = telefonoAdmin;
+
+	public void setTelefonoAdmin(String telefono_admin) {
+		this.telefono_admin = telefono_admin;
 	}
+
 	public String getPasswordAdmin() {
-		return passwordAdmin;
+		return password_admin;
 	}
-	public void setPasswordAdmin(String passwordAdmin) {
-		this.passwordAdmin = passwordAdmin;
-	} 
-	
+
+	public void setPasswordAdmin(String password_admin) {
+		this.password_admin = password_admin;
+	}
+
 	private static final long serialVersionUID = 1L;
 }

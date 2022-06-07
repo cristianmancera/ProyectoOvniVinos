@@ -1565,3 +1565,20 @@
 2022-06-05 16:16:41,202 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-05 16:16:41,202 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-06-05 16:16:41,202 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cristian\OneDrive\Documentos\sena\Tareas\trim5\ProyectoOvniVinos\CodigoFuenteOvniVinos\BackEnd\WorkspaceApiRestJava\OvniVinosAPIRest\src\test\resources
+2022-06-06 22:21:30,726 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-06 22:21:54,584 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.grupo2.springboot.backend.apirest:OvniVinosAPIRest:0.0.1-SNAPSHOT @ C:\Users\Cristian\OneDrive\Documentos\sena\Tareas\trim5\ProyectoOvniVinos\CodigoFuenteOvniVinos\BackEnd\WorkspaceApiRestJava\OvniVinosAPIRest\pom.xml.
+2022-06-06 22:22:03,603 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 22:22:03,603 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 22:22:03,640 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 22:22:03,650 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 22:22:03,657 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 22:22:03,657 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 22:22:03,657 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cristian\OneDrive\Documentos\sena\Tareas\trim5\ProyectoOvniVinos\CodigoFuenteOvniVinos\BackEnd\WorkspaceApiRestJava\OvniVinosAPIRest\src\test\resources
+2022-06-06 22:22:03,823 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 22:22:03,823 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 22:22:03,823 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 22:22:03,827 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-06 22:22:03,830 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-06 22:22:03,830 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-06 22:22:03,830 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cristian\OneDrive\Documentos\sena\Tareas\trim5\ProyectoOvniVinos\CodigoFuenteOvniVinos\BackEnd\WorkspaceApiRestJava\OvniVinosAPIRest\src\test\resources
+2022-06-06 22:41:29,841 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

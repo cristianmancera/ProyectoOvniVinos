@@ -1,0 +1,22 @@
+<div class="body" [ngClass]="{'body-expanded':expandir}">
+
+    <div id="sidemenu"class="menu-collapsed">
+        <div id="header">
+            <div id="title">Titulo</div>
+            <div id="menu-btn" (click)="expandir = !expandir" [ngClass]="{'menu-expanded':expandir}" [ngClass]="{'menu-collapsed':!expandir}">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+            </div>
+        </div>
+    
+        <div id="menu-items">
+            <div class="item">
+                <a href="">
+                    <div class="icon"><img src="../../../../assets/Images/usuario.png" alt=""></div>
+                    <div class="title">Perfil</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
