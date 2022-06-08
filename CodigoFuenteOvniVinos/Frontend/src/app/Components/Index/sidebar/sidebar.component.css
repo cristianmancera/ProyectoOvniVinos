@@ -1,26 +1,35 @@
 .fmorado {
     background-color: rgb(184, 13, 72);
 }
-
+.contenedor-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cerrado{
+    height: 100%;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width:85px;
+}
 .menuIcon {
     width: 40px;
-    margin-right: 25px;
 }
-
+.contenedor-sidebar{
+    width: 7.1%;
+}
 .cont-menu {
-    height: 60px;
-    width: 122px;
+    height: 100%;
+    width: 135px;
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     transition: all 1.5s;
 }
-
-.persona {
-    padding-left: 26px;
-    padding-top: 5px;
-}
-
 
 .contenedor-header {
     margin: 0 !important;
