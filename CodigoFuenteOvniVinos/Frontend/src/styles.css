@@ -3,7 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-.base{
+
+.base {
     display: flex;
     flex-direction: column;
 }
